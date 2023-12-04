@@ -1,0 +1,28 @@
+#footer__nav {
+    padding: 32px 0;
+    background-color: #FFFFFF;
+  }
+  #footer__nav .footer__nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #footer__nav .footer__nav_wrapper .footer__copyright .footer__copyright-h6 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+  }
+  #footer__nav .footer__nav_wrapper .footer__nav_menu .footer__nav_menu-ul {
+    display: flex;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+  #footer__nav .footer__nav_wrapper .footer__nav_menu .footer__nav_menu-ul .footer__nav_menu-ul-li .footer__nav_menu-ul-li-a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+  }

@@ -1,0 +1,140 @@
+#project {
+    padding: 128px 0;
+  }
+  #project .project__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #project .project__heading .project__heading-h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    color: #282938;
+    text-transform: capitalize;
+  }
+  #project .project__heading .project__heading-a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+    text-transform: capitalize;
+  }
+  #project .project__heading .project__heading-a .project__heading-a-i {
+    margin-left: 16px;
+  }
+  #project .project__main {
+    margin-top: 64px;
+    display: flex;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    align-items: center;
+  }
+  #project .project__main .project__big {
+    width: 843px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  #project .project__main .project__big .project__big-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #project .project__main .project__big .project__big_overlay {
+    width: 396px;
+    height: 100%;
+    position: absolute;
+    left: -396px;
+    top: 0;
+    z-index: 55;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    padding: 312px 0 76px 49px;
+    transition: all linear 0.3s;
+  }
+  #project .project__main .project__big .project__big_overlay .project__big_overlay-h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 313px;
+    margin-bottom: 16px;
+  }
+  #project .project__main .project__big .project__big_overlay .project__big_overlay-p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 293px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+  }
+  #project .project__main .project__big .project__big_overlay .project__big_overlay-a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #FCD980;
+    text-transform: capitalize;
+  }
+  #project .project__main .project__big .project__big_overlay .project__big_overlay-a .project__big_overlay-a-i {
+    margin-left: 16px;
+  }
+  #project .project__main .project__big:hover .project__big_overlay {
+    left: 0;
+  }
+  #project .project__main .project__small {
+    width: 405px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  #project .project__main .project__small .project__small_item {
+    width: 100%;
+    overflow: hidden;
+    height: 284px;
+    position: relative;
+  }
+  #project .project__main .project__small .project__small_item .project__small_item-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #project .project__main .project__small .project__small_item .project__small_item_overlay {
+    padding: 129px 36px 45px 56px;
+    position: absolute;
+    left: 0;
+    top: -405px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: all linear 0.3s;
+  }
+  #project .project__main .project__small .project__small_item .project__small_item_overlay .project__small_item_overlay-h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    width: 290px;
+  }
+  #project .project__main .project__small .project__small_item .project__small_item_overlay .project__small_item_overlay-a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #FCD980;
+    text-transform: capitalize;
+  }
+  #project .project__main .project__small .project__small_item .project__small_item_overlay .project__small_item_overlay-a .project__small_item_overlay-a-i {
+    margin-left: 16px;
+  }
+  #project .project__main .project__small .project__small_item:hover .project__small_item_overlay {
+    top: 0;
+  }
