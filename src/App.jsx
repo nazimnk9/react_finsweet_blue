@@ -28,7 +28,7 @@ import {
   Route,
 } from "react-router-dom";
 import MainLayout from './components/MainLayout'
-import Error from './components/Error'
+import Error from './components/error/Error'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
